@@ -1,0 +1,21 @@
+.bg-light {
+    background-color: #0CBCCC !important;
+}
+
+.navbar-brand {
+    margin-right: 0rem!important;
+}
+
+.btn-new {
+    border-radius: 1rem!important;
+    color: #fff!important;
+    background-color: #eba204!important;
+    border-color: #eba204!important;
+}
+
+
+/*.btn-primary {
+    color: #fff!important;
+    background-color: #eba204!important;
+    border-color: #eba204!important;
+}*/
