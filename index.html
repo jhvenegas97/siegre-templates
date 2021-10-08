@@ -17,114 +17,136 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 1.2rem;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo-header.png" alt="Logo">
+    
+<header>
+    
+<!--MENU-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 1.2rem;">
+      <div class="container-fluid">
 
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#"><i class="fa fa-user-plus"></i> Iniciar sesión</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-file"></i> Manual de Usuario</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-users"></i> Acerca de</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-size: 1.8rem;">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/Egresados.jpg" class="d-block w-100" alt="egresados">
-                <div class="carousel-caption d-none d-md-block">
-                    <left><h1>BIENVENIDOS A SIEGRES</h1></left>
-                    <p>Sistema de Información de Egresados de Licenciatura en Informática. Leer más <a href="#">aquí</a></p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <a class="navbar-brand" href="#">
+        <img src="images/logo-header.png" alt="Logo">
+         </a>
+                
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+                        
+        <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#"><i class="fa fa-user-plus"></i> Iniciar sesión</a>
+        </li>
+
+        <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-file"></i> Manual de Usuario</a>
+        </li>
+
+        <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-users"></i> Acerca de</a>
+        </li>
+        </ul>
+        </div>
+
+      </div>
+    </nav>
+<!--FIN  MENU-->
+
+</header>
+<!--INCIO CARRUSEL-->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-size: 1.8rem;">
+    <div class="carousel-indicators">
+
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+        
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img src="images/Egresados.jpg" class="d-block w-100" alt="egresados">
+    <div class="carousel-caption d-none d-md-block">
+
+    <left><h1>BIENVENIDOS A SIEGRES</h1></left>
+    <p>Sistema de Información de Egresados de Licenciatura en Informática.
+    <br> Leer más <a href="#">aquí</a></p>
+    </div>
+    </div>
     </div>
 
-    <div class="container p-4">
-        <nav id="navbar-example2" class="navbar navbar-light bg-light" style="background-color: #FFF !important;">
-            <a class="navbar-brand" href="#">
-                <h2>Aspectos Importantes</h2>
-            </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading1">First</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading2">Second</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-            <h4 id="scrollspyHeading1">First heading</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente accusantium excepturi numquam aperiam aspernatur delectus saepe eveniet nobis aliquid quos fuga totam nulla tenetur ipsa voluptate, optio ducimus. Possimus, cumque.</p>
-            <h4 id="scrollspyHeading2">Second heading</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore ipsum placeat maxime error assumenda hic suscipit pariatur impedit corrupti voluptate? Ex officiis rem sunt repudiandae obcaecati dolorum reiciendis commodi sapiente.</p>
-            <h4 id="scrollspyHeading3">Third heading</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate distinctio consectetur hic omnis magnam animi a placeat molestias facilis? Amet consectetur earum ducimus totam neque illo tempora! Laborum, perferendis esse!</p>
-            <h4 id="scrollspyHeading4">Fourth heading</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iure, et ex repellat aut consequuntur corporis ipsam mollitia magni minima nihil nisi sequi quibusdam, quasi, consequatur officiis. Dolorum, cum aut?</p>
-            <h4 id="scrollspyHeading5">Fifth heading</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptate itaque consectetur omnis minus eum reprehenderit enim. Nemo, est quae nobis velit doloremque animi mollitia quam hic exercitationem deleniti laborum.</p>
-        </div>
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
 
-    <footer class="d-flex flex-wrap align-items-center justify-content-center py-3 bg-light " style="font-size: 1.05rem; ">
-        <div class="col-md-8 col-sm-12 d-flex align-items-center justify-content-center justify-content-md-start justify-content-lg-start justify-content-xl-start text-center text-md-start text-lg-start text-xl-start ">
-            <span class="justify-content-sm-center d-flex " style="padding-left: 30px; padding-right: 30px; ">SIEGRES<br>© Copyright Universidad de Nariño. All Rights Reserved 2021 <br> Calle 18 Carrera 50 Torobajo, Bloque 3, Departamento de Matemáticas y Estadística</span>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--FIN CARRUSEL-->
+
+<!--INICIO TEXTO-->
+
+<div class="container p-4">
+    <nav id="navbar-example2" class="navbar navbar-light bg-light" style="background-color: #FFF !important;">
+    <h2>SIEGRES</h2>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+    <h4 id="scrollspyHeading1">¿Qué es SIEGRES?</h4>
+    <p>Es un sistema de información web creado para el beneficio de todos los egresados no titulados
+    y graduados del programa Licenciatura en Informática de la Universidad de Nariño.  
+    </p>
+
+    <h4 id="scrollspyHeading3">¿Qué encontraras en SIEGRES?</h4>
+    <h4 id="scrollspyHeading2">Capacitaciones</h4>
+            
+    <p>Encontraras notificacione de las capacitaciones que se pueden presentar momentaniamente y que pueden ser de gran interes e innovacion para los egresados del programa Licenciatura
+    en Informatica.
+    </p>
+    
+    <h4 id="scrollspyHeading2">Ofertas laborales</h4>
+    <p>Se subiran al sistema de informacion web todas las vacantes que requieran las instituciones, emprasas u organizaciones relacionadas con el perfil ocupacional de un licenciado en informatica.
+    Adicionalmente si eres egresado particual y estas registrado en el sistema puedes solicitar una vacante para tu institucion, empresa u organizacion.
+    </p>
+
+    <h4 id="scrollspyHeading2">Entretenimiento</h4>
+    <p>Se puede visualisar todos los articulos de la revista runin  del programa, eventos academicos entre otros aspectos de interes.
+    </p>
+
+    <h4 id="scrollspyHeading2">Reconocimeinto al mérito</h4>
+    <p>periodicamente  se destacara a los egresados que tengan una experiencia academica y de formacion continua, con el animo de motivar a los demas a que sigan formandose.</p>
+    </div>
+</div>
+
+ <!--FIN TEXTO-->  
+
+ <!--FOOTER-->
+
+<footer class="d-flex flex-wrap align-items-center justify-content-center py-3 bg-light " style="font-size: 1.05rem; ">
+
+    <div class="col-md-8 col-sm-12 d-flex align-items-center justify-content-center justify-content-md-start justify-content-lg-start justify-content-xl-start text-center text-md-start text-lg-start text-xl-start ">
+        <span class="justify-content-sm-center d-flex " style="padding-left: 30px; padding-right: 30px; ">SIEGRES<br>© Copyright Universidad de Nariño. All Rights Reserved 2021 <br> Calle 18 Carrera 50 Torobajo, Bloque 3, Departamento de Matemáticas y Estadística</span>
         </div>
+
         <div class="col-md-4 col-sm-12 d-flex justify-content-center justify-content-md-end justify-content-lg-end justify-content-xl-end ">
-            <ul class="nav list-unstyled " style=" font-size: 3rem; padding-right: 30px; padding-left: 30px; ">
-                <li class="ms-3 ">
-                    <a class="nav-item " target="_blank " href="https://www.facebook.com/groups/81959732158/ " style="color: #05555C; "><i class="fa fa-facebook "></i></a>
-                </li>
-                <li class="ms-3 ">
-                    <a class="nav-item " target="_blank " href="https://www.youtube.com/playlist?list=PLlubJrAflG-ZRf1JPZacaUapk7PH4fGBz " style="color: #05555C; "><i class="fa fa-youtube "></i></a>
-                </li>
-                <li class="ms-3 ">
-                    <a class="nav-item " target="_blank " href="https://twitter.com/licinfoudenar " style="color: #05555C; "><i class="fa fa-twitter "></i></a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+        <ul class="nav list-unstyled " style=" font-size: 3rem; padding-right: 30px; padding-left: 30px; ">
+        <li class="ms-3 ">
+        <a class="nav-item " target="_blank " href="https://www.facebook.com/groups/81959732158/ " style="color: #05555C; "><i class="fa fa-facebook "></i></a>
+        </li>
+
+        <li class="ms-3 ">
+        <a class="nav-item " target="_blank " href="https://www.youtube.com/playlist?list=PLlubJrAflG-ZRf1JPZacaUapk7PH4fGBz " style="color: #05555C; "><i class="fa fa-youtube "></i></a>
+        </li>
+
+        <li class="ms-3 ">
+        <a class="nav-item " target="_blank " href="https://twitter.com/licinfoudenar " style="color: #05555C; "><i class="fa fa-twitter "></i></a>
+        </li>
+        </ul>
+    </div>
+
+</footer>
+<!--FIN FOOTER-->
 
 </body>
 
