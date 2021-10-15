@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Editar Formación Acádemica</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!--MENU-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 1.2rem;">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-header.png" alt="Logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="fa fa-user-plus"></i> Iniciar sesión</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-file"></i> Manual de Usuario</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-users"></i> Acerca de</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--FIN MENU-->
+
+    </header>
+
+
+    <!--CONTENEDOR 2 IMAGENES Y BOTONES-->
+    <div class="container-fluid">
+
+        <div class="d-flex justify-content-center pt-4">
+            <h2>Selecciona un usuario</h2>
+        </div>
+
+        <br>
+
+        
+
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary btn-new" data-bs-toggle="modal" data-bs-target="#egresados">EDITAR FORMACIÓN ACADEMICA</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        
+                <br>
+
+
+            </div>
+
+            <!--FIN CONTENENEDOR 2 IMAGENES Y BOTONES-->
+
+
+
+            <!--VENTANA EMERGENTE EGRESADOS-->
+
+
+            <div class="modal fade" id="egresados" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="row d-flex justify-content-center">
+
+                                <div class="col-12  d-flex justify-content-center">
+                                    <img src="images/egresado.png" width="100" height="100" class="img-responsive" alt="">
+                                </div>
+
+                                <div class="col-12  d-flex justify-content-center">
+                                    <h5 class="modal-title" id="exampleModalLabel">Editar Formación acádemica</h5>
+                                </div>
+                            </div>
+
+
+                            <form>
+
+
+                                <div class="col-6 ">
+
+                                </div>
+
+                                <div class="col-6 ">
+
+                                </div>
+                                <!--DIV ORGANIZADOR-->
+
+                                <div class="row d-flex justify-content-center mt-4">
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Institución">
+                                    </div>
+
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Tipo de Formación">
+                                    </div>
+                                </div>
+
+                                <div class="row d-flex justify-content-center mt-4">
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Descripción">
+                                    </div>
+
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Duración">
+                                    </div>
+                                </div>
+
+                                 <div class="row d-flex justify-content-center mt-4">
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Fecha de inicio">
+                                    </div>
+
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Fecha de fin">
+                                    </div>
+                                </div>
+
+                                  <div class="row d-flex justify-content-center mt-4">
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Pais">
+                                    </div>
+
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Ciudad">
+                                    </div>
+                                </div>
+
+                              
+
+                                <br>
+
+                               
+
+                                <div class="modal-footer">
+                                    <!--FOOTER DE VENTANA EMERGENTE NO DE TODO EL DOCUMENTO-->
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registro">Cancelar
+            </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--FIN VENTANA EMERGENTE EGRESADOS-->
+
+
+            <!--VENTANA EMERGENTE INSTITUCIONES-->
+
+
+            <div class="modal fade" id="instituciones" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="row d-flex justify-content-center">
+
+                                <div class="col-12  d-flex justify-content-center">
+                                    <img src="images/docente.png" width="100" height="100" class="img-responsive" alt="">
+                                </div>
+
+                                <div class="col-12  d-flex justify-content-center">
+                                    <h5 class="modal-title" id="exampleModalLabel">Crear Razon Social</h5>
+                                </div>
+                            </div>
+
+                            <form>
+
+
+                                <div class="row d-flex justify-content-center mt-4">
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Nit o Identificación">
+                                    </div>
+
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Nombre razon social">
+                                    </div>
+                                </div>
+
+                                <div class="row d-flex justify-content-center mt-4">
+                                    <div class="col-6 ">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Correo">
+                                    </div>
+
+                                    <div class="col-6 mb-4">
+                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Telefono">
+                                    </div>
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="emailHelp " placeholder="Contraseña">
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1"><a href="https://es.stackoverflow.com" target="_blank" class="align-items-right">Acepto terminos y condiciones</label></a>
+                                    <br>
+
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Registrarse</button>
+                                <button type="button" class="btn btn-primary">Cancelar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--QUITO SE DAÑA FOOTER-->
+        <!--FIN VENTANA EMERGENTE INSTITUCIONES-->
+
+    </div>
+    <!--FIN VENTANA EMERGENTE REGISTRO-->
+
+
+    <br>
+    <br>
+    <br>
+
+    <!--FOOTER-->
+
+    <footer class="d-flex flex-wrap align-items-center justify-content-center py-3 bg-light " style="font-size: 1.05rem; ">
+        <div class="col-md-8 col-sm-12 d-flex align-items-center justify-content-center justify-content-md-start justify-content-lg-start justify-content-xl-start text-center text-md-start text-lg-start text-xl-start ">
+            <span class="justify-content-sm-center d-flex " style="padding-left: 30px; padding-right: 30px; ">SIEGRES<br>© Copyright Universidad de Nariño. All Rights Reserved 2021 <br> Calle 18 Carrera 50 Torobajo, Bloque 3, Departamento de Matemáticas y Estadística</span>
+        </div>
+
+        <div class="col-md-4 col-sm-12 d-flex justify-content-center justify-content-md-end justify-content-lg-end justify-content-xl-end ">
+            <ul class="nav list-unstyled " style=" font-size: 3rem; padding-right: 30px; padding-left: 30px; ">
+                <li class="ms-3 ">
+                    <a class="nav-item " target="_blank " href="https://www.facebook.com/groups/81959732158/ " style="color: #05555C; "><i class="fa fa-facebook "></i></a>
+                </li>
+
+                <li class="ms-3 ">
+                    <a class="nav-item " target="_blank " href="https://www.youtube.com/playlist?list=PLlubJrAflG-ZRf1JPZacaUapk7PH4fGBz " style="color: #05555C; "><i class="fa fa-youtube "></i></a>
+                </li>
+
+                <li class="ms-3 ">
+                    <a class="nav-item " target="_blank " href="https://twitter.com/licinfoudenar " style="color: #05555C; "><i class="fa fa-twitter "></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--FIN FOOTER-->
+
+</body>
+
+</html>
