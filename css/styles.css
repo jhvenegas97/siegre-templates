@@ -17,12 +17,11 @@
     font-weight: 700 !important;
 }
 
-.container {
-    margin-top: 250px
-}
-
 body {
     background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .demo {

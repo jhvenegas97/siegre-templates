@@ -65,106 +65,118 @@
 
         <br>
 
-      
-
-                    <div class="col-12 d-flex justify-content-center">
-                        <button type="button" class="btn btn-primary btn-new" data-bs-toggle="modal" data-bs-target="#egresados">PUBLICACION CAPACITACION</button>
-                    </div>
-                </div>
-            </div>
 
 
-            
-            <!--FIN CONTENENEDOR 2 IMAGENES Y BOTONES-->
+        <div class="col-12 d-flex justify-content-center">
+            <button type="button" class="btn btn-primary btn-new" data-bs-toggle="modal" data-bs-target="#egresados">PUBLICACION CAPACITACION</button>
+        </div>
+    </div>
+    </div>
 
 
 
-            <!--VENTANA EMERGENTE EGRESADOS-->
+    <!--FIN CONTENENEDOR 2 IMAGENES Y BOTONES-->
 
 
-            <div class="modal fade" id="egresados" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+
+    <!--VENTANA EMERGENTE EGRESADOS-->
+
+
+    <div class="modal fade" id="egresados" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
             <div class="modal-content">
 
-                 <div class="modal-header">
-                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                 </div>
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
 
                 <div class="modal-body">
-                <div class="row d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center">
 
-                <div class="col-12  d-flex justify-content-center">
-                <img src="images/CAPACITACION.png" width="150" height="150" class="img-responsive" alt="">
-                </div>
+                        <div class="col-12  d-flex justify-content-center">
+                            <img src="images/CAPACITACION.png" width="150" height="150" class="img-responsive" alt="">
+                        </div>
 
-                <div class="col-12  d-flex justify-content-center">
-                 <h5 class="modal-title" id="exampleModalLabel">Crear Publicación Capacitación</h5>
+                        <div class="col-12  d-flex justify-content-center">
+                            <h5 class="modal-title" id="exampleModalLabel">Crear Capacitación</h5>
 
-                 </div>
-                </div>
-
-     <form>
-
-
-         <!--DIV ORGANIZADOR-->
-
-         <div class="row d-flex justify-content-center mt-4">
-
-            <div class="col-6 ">
-            <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Nombre o Titulo">
-            </div>
-
-            <div class="col-6 ">
-             <input type="text " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Descripción">
-            </div>
-            </div>
-
-            <div class="row d-flex justify-content-center mt-4">
-            <div class="col-6 ">
-            <input type="date" class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Fecha">
-            </div>
-
-            <div class="col-6 ">
-            <input type="time" class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Hora">
-            </div>
-            </div>
-
-            <div class="row d-flex justify-content-center mt-4">
-            <div class="col-12">
-            <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Enlace o Lugar">
-            </div>
-             </div>
-
-            <div class="row d-flex justify-content-center mt-4">
-            <div class="col-12">
-            <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Adjuntar Logo">
-            </div>
-            </div>
-
-            
-
-                                <br>
-
-          
-
-            <button type="submit" class="btn btn-primary">Registrarse</button>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registro">Cancelar
-            </button>
-
-             <div class="modal-footer">
-            <!--FOOTER DE VENTANA EMERGENTE NO DE TODO EL DOCUMENTO-->
-           
-                                </div>
-                            </form>
                         </div>
                     </div>
+
+                    <form>
+
+
+                        <!--DIV ORGANIZADOR-->
+
+                        <div class="row d-flex justify-content-center mt-4">
+                            <div class="col-12">
+                                <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Nombre o Titulo">
+                            </div>
+                        </div>
+
+                        <div class="row d-flex justify-content-center mt-4">
+                            <div class="col-12">
+                                <textarea class="form-control" id="exampleInputEmail1 " aria-label="With textarea" placeholder="Descripción"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row d-flex justify-content-center mt-4">
+                            <div class="col-12">
+                                <div class="input-group flex-nowrap">
+                                    <span class="input-group-text" id="addon-wrapping">Fecha</span>
+                                    <input type="date" class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Fecha">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row d-flex justify-content-center mt-4">
+                            <div class="col-12">
+                                <div class="input-group flex-nowrap">
+                                    <span class="input-group-text" id="addon-wrapping">Hora</span>
+                                    <input type="time" class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Hora">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row d-flex justify-content-center mt-4">
+                            <div class="col-12">
+                                <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Enlace o Lugar">
+                            </div>
+                        </div>
+
+                        <div class="row d-flex justify-content-center mt-4">
+                            <div class="col-12">
+                                <div class="input-group mb-3">
+                                    <label class="input-group-text" for="inputGroupFile01">Logo</label>
+                                    <input type="file" class="form-control" id="inputGroupFile01">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <br>
+
+
+
+
+                        </button>
+
+                        <div class="modal-footer">
+                            <!--FOOTER DE VENTANA EMERGENTE NO DE TODO EL DOCUMENTO-->
+                            <button type="submit" class="btn btn-primary btn-new">Registrarse</button>
+                            <button type="button" class="btn btn-primary btn-new" data-bs-toggle="modal" data-bs-target="#registro">Cancelar
+                        </div>
+                    </form>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <!--FIN VENTANA EMERGENTE EGRESADOS-->
+    <!--FIN VENTANA EMERGENTE EGRESADOS-->
 
 
-           
+
 
     </div>
     <!--FIN VENTANA EMERGENTE REGISTRO-->
@@ -176,7 +188,7 @@
 
     <!--FOOTER-->
 
-    <footer class="d-flex flex-wrap align-items-center justify-content-center py-3 bg-light " style="font-size: 1.05rem; ">
+    <footer class="footer mt-auto py-3 bg-light d-flex flex-wrap align-items-center justify-content-center" style="font-size: 1.05rem; ">
         <div class="col-md-8 col-sm-12 d-flex align-items-center justify-content-center justify-content-md-start justify-content-lg-start justify-content-xl-start text-center text-md-start text-lg-start text-xl-start ">
             <span class="justify-content-sm-center d-flex " style="padding-left: 30px; padding-right: 30px; ">SIEGRES<br>© Copyright Universidad de Nariño. All Rights Reserved 2021 <br> Calle 18 Carrera 50 Torobajo, Bloque 3, Departamento de Matemáticas y Estadística</span>
         </div>
