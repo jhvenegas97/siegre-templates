@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Login</title>
+    <title>Crear Usuario</title>
 </head>
 
 <body>
@@ -87,7 +87,7 @@
                     </div>
 
                     <div class="col-12 d-flex justify-content-center">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#instituciones">INSTITUCIONES</button>
+                        <button type="button" class="btn btn-primary btn-new" data-bs-toggle="modal" data-bs-target="#instituciones">INSTITUCIONES</button>
                     </div>
                 </div>
                 <br>
@@ -181,16 +181,10 @@
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1"><a href="https://es.stackoverflow.com" target="_blank" class="align-items-right">Acepto terminos y condiciones</label></a>
                                 </div>
-
-                                <button type="submit" class="btn btn-primary">Registrarse</button>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registro">Cancelar
-            </button>
-
                                 <div class="modal-footer">
                                     <!--FOOTER DE VENTANA EMERGENTE NO DE TODO EL DOCUMENTO-->
-                                    <button type="submit" class="btn btn-primary">Ingresar</button>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registro">Registrarse
-            </button>
+                                    <button type="submit" class="btn btn-primary btn-new">Registrarse</button>
+                                    <button type="button" class="btn btn-primary btn-new" data-bs-toggle="modal" data-bs-target="#registro">Cancelar</button>
                                 </div>
                             </form>
                         </div>
@@ -259,8 +253,11 @@
 
                                 </div>
 
-                                <button type="submit" class="btn btn-primary">Registrarse</button>
-                                <button type="button" class="btn btn-primary">Cancelar</button>
+                                <div class="modal-footer">
+                                    <!--FOOTER DE VENTANA EMERGENTE NO DE TODO EL DOCUMENTO-->
+                                    <button type="submit" class="btn btn-primary btn-new">Registrarse</button>
+                                    <button type="button" class="btn btn-primary btn-new" data-bs-toggle="modal" data-bs-target="#registro">Cancelar</button>
+                                </div>
                             </form>
                         </div>
                     </div>
