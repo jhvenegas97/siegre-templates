@@ -128,3 +128,7 @@ a:active {
         padding-left: 0 !important
     }
 }*/
+
+.carousel-caption {
+    bottom: auto !important;
+}
