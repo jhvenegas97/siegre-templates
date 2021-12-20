@@ -12,6 +12,20 @@
     <script src="js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        let autocomplete;
+
+        function initAutocomplete() {
+            autocomplete = new google.maps.places.Autocomplete(document.getElementById('autocomplete'), {
+                types: ['establishment'],
+                componentRestrictions: {
+                    'country': ['AU']
+                },
+                fields: ['place_id', 'geometry', 'name']
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs1e_3uSykRMy-xijXC8JOv56qxnBqrAI&libraries=places&callback=initAutocomplete" async defer></script>
 
     <title>Crear Usuario</title>
 </head>
@@ -137,7 +151,8 @@
 
                                 <div class="row d-flex justify-content-center mt-4">
                                     <div class="col-6 ">
-                                        <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Identificación">
+                                        <!-- <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Identificación"> -->
+                                        <input id="autocomplete" type="text" class="form-control" placeholder="Dirección!">
                                     </div>
 
                                     <div class="col-6 ">
